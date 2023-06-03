@@ -9,7 +9,7 @@ class AppsflyerManager(private val context: Context) {
     private lateinit var conversionDataListener: ConversionDataListener
 
     fun init() {
-        val appsFlyerConfiguration = AppsFlyerLib.getInstance().init("YOUR_AF_DEV_KEY", appsFlyerConversionListener, context)
+        val appsFlyerConfiguration = AppsFlyerLib.getInstance().init("UfzmD9J3NRVH9AcyuBEvf8", appsFlyerConversionListener, context)
         appsFlyerConfiguration.setDebugLog(true)
         AppsFlyerLib.getInstance().start(context)
     }
